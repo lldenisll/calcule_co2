@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+    <title>Calcule CO2</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+
+</head>
+
+<body>
+    
+
+<div class="container">
+    <div class="row">
+         <input type="range" name="" id="km" class="form-control" value="0" min="{1"} max="600" step="1" required="required" title="" oninput="display.value=value" onchange="display.value=value">>
+         <input type="text" id="display" value="0" oninput="km.value=value" onchange="km.value=value">
+
+</div>
+
+   <div class="row">
+<select name="" id="veiculo" class="form-control">
+	    <option value="">-- Select One --</option>
+        <option>Carro</option>
+        <option>Moto</option>
+</select> 
+</div>
+    <div class="row">
+<select name="" id="gas" class="form-control">
+	    <option value="">-- Select One --</option>
+        <option>Gasolina</option>
+        <option>Etanol</option>
+</select>
+        </div>
+
+
+   <div class="row">
+       <button type="button" onclick="send()" class="btn btn-secondary">Send</button>
+
+    </div> 
+    <p id="emission"> </p> 
+</div>
+    
+
+
+
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/main.js"></script>
+ <script src="js/jquery.min.js"></script>
+
+</body>
+
+
+</html>
