@@ -2,3 +2,29 @@
     padding-bottom: 10px;
     padding-top: 10px;
 }
+
+.resp{
+    padding-top: 30px;
+}
+
+.tabela{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table tr, table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th{
+    
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table tr:hover {background-color: #ddd;}
